@@ -260,7 +260,6 @@ console.log(showCarInfo(car)); // Виведе { brand: 'BMW', year: 2022, count
 function addProperty(array) {
   Object.defineProperty(Array.prototype, 'customProperty', {
     value: 'myProperty',
-    writable: true,
   });
   
   return array;
